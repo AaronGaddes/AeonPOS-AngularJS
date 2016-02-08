@@ -34,7 +34,12 @@ app.controller('Sections', function($scope){
             {item:"Steak",addons:["Well Done", "No Sauce"]}
           ]
         },
-        {name:2,maxPpl:6,status:"ocupied"},
+        {name:2,maxPpl:6,status:"ocupied",
+          orders:[
+            {item:"Steak",addons:["Well Done", "No Sauce"]},
+            {item:"Steak",addons:["Well Done", "No Sauce"]}
+          ]
+        },
         {name:3,maxPpl:6,status:"ocupied"},
         {name:4,maxPpl:6,status:"ocupied"},
         {name:5,maxPpl:6,status:"ocupied"},

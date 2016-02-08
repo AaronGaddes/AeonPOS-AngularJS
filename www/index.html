@@ -15,7 +15,7 @@
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
 
-  <link rel="stylesheet" type="text/css" href="css/index.css" />
+  <!-- <link rel="stylesheet" type="text/css" href="css/index.css" /> -->
     <!-- <link href="lib/ionic/css/ionic.css" rel="stylesheet"> -->
     <link href="css/style.css" rel="stylesheet">
 
@@ -58,7 +58,7 @@
                 <ul class="collection black-text">
                     <li class="collection-item" ng-repeat="order in table.orders">
                       <div>{{order.item}}</div>
-                      <div><span class="chip" ng-repeat="addon in order.addons">{{addon}}</span></div>
+                      <div><span ng-repeat="addon in order.addons"><i class="tiny material-icons">label_outline</i>{{addon}} </span></div>
                     </li>
                   </ul>
             </div>
